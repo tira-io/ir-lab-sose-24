@@ -1,6 +1,6 @@
 <template>
   <p class="justify-center mx-2 mb-5">
-  The <a href="https://temir.org/teaching/information-retrieval-ws23/information-retrieval-ws23.html" target="_blank">course</a> is organized in four milestones, with a task, supporting material, and one deliverable per milestone.
+  The <a href="https://github.com/tira-io/teaching-ir-with-shared-tasks/tree/main#courses" target="_blank">courses</a> are roughly in four milestones, with a task, supporting material, and one deliverable per milestone.
   </p>
   <div>
     <v-row class="justify-center mx-2 mb-5">
@@ -69,18 +69,18 @@ export default {
       tasks: [
         {
           'milestone': 'Milestone 1',
-          'deadline': '23.10.2023',
+          'deadline': '22.04.2024',
           'title': 'Formulate topics',
           'supporting_material': [
             {'title': 'ir_datasets browser', 'link': 'https://tira-io.github.io/ir-dataset-browser/'},
-            {'title': 'ir_datasets Tutorial', 'link': 'https://github.com/tira-io/teaching-ir-with-shared-tasks/blob/main/tutorials/tutorial-01-ir-datasets.ipynb'}
+            {'title': 'ir_datasets Tutorial', 'link': 'https://github.com/tira-io/teaching-ir-with-shared-tasks/blob/main/tutorials/tutorial-ir-datasets.ipynb'}
           ],
           'deliverable': 'Topics file'
         },
 
         {
           'milestone': 'Milestone 2',
-          'deadline': '06.11.2023',
+          'deadline': '06.05.2024',
           'title': 'Acquire relevance judgments',
           'supporting_material': [
             {'title': 'Annotation platform', 'link': 'https://doccano.web.webis.de/'},
@@ -91,10 +91,10 @@ export default {
 
         {
           'milestone': 'Milestone 3',
-          'deadline': '27.11.2023',
+          'deadline': '01.07.2024',
           'title': 'Develop IR system',
           'supporting_material': [
-            {'title': 'Evaluation platform', 'link': 'https://www.tira.io/task-overview/ir-lab-jena-leipzig-wise-2023'},
+            {'title': 'Evaluation platform', 'link': 'https://www.tira.io/task-overview/ir-lab-sose-2024'},
             {'title': 'Web IDE + Tutorials', 'link': 'https://github.com/tira-io/teaching-ir-with-shared-tasks/tree/main/tutorials'}
           ],
           'deliverable': 'System submission'
@@ -102,10 +102,10 @@ export default {
 
         {
           'milestone': 'Milestone 4',
-          'deadline': '22.01.2024',
+          'deadline': '14.07.2024',
           'title': 'Conduct statistical analyses',
           'supporting_material': [
-            {'title': 'Evaluation platform', 'link': 'https://www.tira.io/task-overview/ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test'},
+            {'title': 'Evaluation platform', 'link': 'https://www.tira.io/task-overview/ir-lab-sose-2024'},
             {'title': 'Tutorial notebook', 'link': 'https://github.com/tira-io/teaching-ir-with-shared-tasks/tree/main/tutorials'}
           ],
           'deliverable': 'Report'
