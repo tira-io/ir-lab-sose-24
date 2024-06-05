@@ -1,15 +1,16 @@
 {
     "ir-lab-sose-2024/ir-acl-anthology-20240504-training": {
-        "2019.sigirconf_workshop-2019birndl.0": {
-            "docno": "2019.sigirconf_workshop-2019birndl.0",
-            "text": "Proceedings of the 4th Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural Language Processing for Digital Libraries (BIRNDL 2019) co-located with the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2019), Paris, France, July 25, 2019 ",
+        "O02-2002": {
+            "docno": "O02-2002",
+            "text": "A Study on Word Similarity using Context Vector Models\n\n\n There is a need to measure word similarity when processing natural languages, especially when using generalization, classification, or example -based approaches. Usually, measures of similarity between two words are defined according to the distance between their semantic classes in a semantic taxonomy . The taxonomy approaches are more or less semantic -based that do not consider syntactic similarit ies. However, in real applications, both semantic and syntactic similarities are required and weighted differently. Word similarity based on context vectors is a mixture of syntactic and semantic similarit ies. In this paper, we propose using only syntactic related co-occurrences as context vectors and adopt information theoretic models to solve the problems of data sparseness and characteristic precision. The probabilistic distribution of co-occurrence context features is derived by parsing the contextual environment of each word , and all the context features are adjusted according to their IDF (inverse document frequency) values. The agglomerative clustering algorithm is applied to group similar words according to their similarity values. It turns out that words with similar syntactic categories and semantic classes are grouped together.",
             "original_document": {
-                "doc_id": "2019.sigirconf_workshop-2019birndl.0",
-                "abstract": "",
-                "title": "Proceedings of the 4th Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural Language Processing for Digital Libraries (BIRNDL 2019) co-located with the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2019), Paris, France, July 25, 2019",
-                "authors": [],
-                "year": "2019",
-                "booktitle": "Proceedings of the 4th Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural Language Processing for Digital Libraries (BIRNDL 2019) co-located with the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2019), Paris, France, July 25, 2019"
+                "title": "A Study on Word Similarity using Context Vector Models",
+                "abstract": "There is a need to measure word similarity when processing natural languages, especially when using generalization, classification, or example -based approaches. Usually, measures of similarity between two words are defined according to the distance between their semantic classes in a semantic taxonomy . The taxonomy approaches are more or less semantic -based that do not consider syntactic similarit ies. However, in real applications, both semantic and syntactic similarities are required and weighted differently. Word similarity based on context vectors is a mixture of syntactic and semantic similarit ies. In this paper, we propose using only syntactic related co-occurrences as context vectors and adopt information theoretic models to solve the problems of data sparseness and characteristic precision. The probabilistic distribution of co-occurrence context features is derived by parsing the contextual environment of each word , and all the context features are adjusted according to their IDF (inverse document frequency) values. The agglomerative clustering algorithm is applied to group similar words according to their similarity values. It turns out that words with similar syntactic categories and semantic classes are grouped together.",
+                "year": "2002",
+                "authors": "Chen, Keh-Jiann  and\nYou, Jia-Ming",
+                "anthology": "acl",
+                "anthology_id": "O02-2002",
+                "url": "https://aclanthology.org/O02-2002"
             }
         }
     }

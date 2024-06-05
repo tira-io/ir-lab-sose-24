@@ -21,12 +21,12 @@
         "var_Judged@10": 0.05,
         "run_details": {
             "start": 0,
-            "end": 17985,
+            "end": 48664,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
             "start": 0,
-            "end": 5069,
+            "end": 9444,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -56,13 +56,13 @@
         "var_R@100": 0.026,
         "var_Judged@10": 0.012,
         "run_details": {
-            "start": 17986,
-            "end": 31337,
+            "start": 48665,
+            "end": 93189,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 5070,
-            "end": 9294,
+            "start": 9445,
+            "end": 16188,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -92,13 +92,13 @@
         "var_R@100": 0.043,
         "var_Judged@10": 0.042,
         "run_details": {
-            "start": 31338,
-            "end": 43437,
+            "start": 93190,
+            "end": 130134,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 9295,
-            "end": 14584,
+            "start": 16189,
+            "end": 22986,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -128,13 +128,13 @@
         "var_R@100": 0.004,
         "var_Judged@10": 0.011,
         "run_details": {
-            "start": 43438,
-            "end": 53549,
+            "start": 130135,
+            "end": 165933,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 14585,
-            "end": 17446,
+            "start": 22987,
+            "end": 27928,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -164,13 +164,13 @@
         "var_R@100": 0.037,
         "var_Judged@10": 0.042,
         "run_details": {
-            "start": 53550,
-            "end": 70518,
+            "start": 165934,
+            "end": 211062,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 17447,
-            "end": 23916,
+            "start": 27929,
+            "end": 37177,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -200,13 +200,13 @@
         "var_R@100": 0.01,
         "var_Judged@10": 0.04,
         "run_details": {
-            "start": 70519,
-            "end": 88065,
+            "start": 211063,
+            "end": 262347,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 23917,
-            "end": 32371,
+            "start": 37178,
+            "end": 46774,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -236,13 +236,13 @@
         "var_R@100": 0.047,
         "var_Judged@10": 0.042,
         "run_details": {
-            "start": 88066,
-            "end": 99279,
+            "start": 262348,
+            "end": 302387,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 32372,
-            "end": 37248,
+            "start": 46775,
+            "end": 53365,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -272,13 +272,13 @@
         "var_R@100": 0.062,
         "var_Judged@10": 0.084,
         "run_details": {
-            "start": 99280,
-            "end": 114507,
+            "start": 302388,
+            "end": 345042,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 37249,
-            "end": 44686,
+            "start": 53366,
+            "end": 62136,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -308,13 +308,13 @@
         "var_R@100": 0.009,
         "var_Judged@10": 0.084,
         "run_details": {
-            "start": 114508,
-            "end": 127076,
+            "start": 345043,
+            "end": 385157,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 44687,
-            "end": 50153,
+            "start": 62137,
+            "end": 68697,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -344,13 +344,13 @@
         "var_R@100": 0.0,
         "var_Judged@10": 0.002,
         "run_details": {
-            "start": 127077,
-            "end": 141953,
+            "start": 385158,
+            "end": 438132,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 50154,
-            "end": 57297,
+            "start": 68698,
+            "end": 77201,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -380,13 +380,13 @@
         "var_R@100": 0.014,
         "var_Judged@10": 0.016,
         "run_details": {
-            "start": 141954,
-            "end": 156436,
+            "start": 438133,
+            "end": 478458,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 57298,
-            "end": 64390,
+            "start": 77202,
+            "end": 85827,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -416,13 +416,13 @@
         "var_R@100": 0.007,
         "var_Judged@10": 0.015,
         "run_details": {
-            "start": 156437,
-            "end": 170229,
+            "start": 478459,
+            "end": 522001,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 64391,
-            "end": 69096,
+            "start": 85828,
+            "end": 93724,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -452,13 +452,13 @@
         "var_R@100": 0.012,
         "var_Judged@10": 0.063,
         "run_details": {
-            "start": 170230,
-            "end": 184369,
+            "start": 522002,
+            "end": 567168,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 69097,
-            "end": 73785,
+            "start": 93725,
+            "end": 103048,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -488,13 +488,13 @@
         "var_R@100": 0.0,
         "var_Judged@10": 0.016,
         "run_details": {
-            "start": 184370,
-            "end": 197970,
+            "start": 567169,
+            "end": 612531,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 73786,
-            "end": 81035,
+            "start": 103049,
+            "end": 111225,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -524,13 +524,13 @@
         "var_R@100": 0.021,
         "var_Judged@10": 0.01,
         "run_details": {
-            "start": 197971,
-            "end": 212062,
+            "start": 612532,
+            "end": 657790,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 81036,
-            "end": 89005,
+            "start": 111226,
+            "end": 120775,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -560,13 +560,13 @@
         "var_R@100": 0.003,
         "var_Judged@10": 0.02,
         "run_details": {
-            "start": 212063,
-            "end": 225948,
+            "start": 657791,
+            "end": 701194,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 89006,
-            "end": 95288,
+            "start": 120776,
+            "end": 129203,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -596,13 +596,13 @@
         "var_R@100": 0.01,
         "var_Judged@10": 0.027,
         "run_details": {
-            "start": 225949,
-            "end": 240148,
+            "start": 701195,
+            "end": 745666,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 95289,
-            "end": 99390,
+            "start": 129204,
+            "end": 138949,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -632,13 +632,13 @@
         "var_R@100": 0.043,
         "var_Judged@10": 0.012,
         "run_details": {
-            "start": 254335,
-            "end": 271629,
+            "start": 788806,
+            "end": 837638,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 99391,
-            "end": 105487,
+            "start": 138950,
+            "end": 148215,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -668,13 +668,13 @@
         "var_R@100": 0.009,
         "var_Judged@10": 0.041,
         "run_details": {
-            "start": 271630,
-            "end": 284746,
+            "start": 837639,
+            "end": 880098,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 105488,
-            "end": 109790,
+            "start": 148216,
+            "end": 155490,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -704,13 +704,13 @@
         "var_R@100": 0.019,
         "var_Judged@10": 0.064,
         "run_details": {
-            "start": 284747,
-            "end": 300681,
+            "start": 880099,
+            "end": 926963,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 109791,
-            "end": 114708,
+            "start": 155491,
+            "end": 164399,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -740,13 +740,13 @@
         "var_R@100": 0.006,
         "var_Judged@10": 0.049,
         "run_details": {
-            "start": 300682,
-            "end": 314622,
+            "start": 926964,
+            "end": 968378,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 114709,
-            "end": 118421,
+            "start": 164400,
+            "end": 171663,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -776,13 +776,13 @@
         "var_R@100": 0.037,
         "var_Judged@10": 0.021,
         "run_details": {
-            "start": 314623,
-            "end": 326881,
+            "start": 968379,
+            "end": 1005518,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 118422,
-            "end": 121328,
+            "start": 171664,
+            "end": 178329,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -812,13 +812,13 @@
         "var_R@100": 0.008,
         "var_Judged@10": 0.026,
         "run_details": {
-            "start": 326882,
-            "end": 340912,
+            "start": 1005519,
+            "end": 1049673,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 121329,
-            "end": 126035,
+            "start": 178330,
+            "end": 185986,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -848,13 +848,13 @@
         "var_R@100": 0.012,
         "var_Judged@10": 0.027,
         "run_details": {
-            "start": 340913,
-            "end": 354184,
+            "start": 1049674,
+            "end": 1092394,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 126036,
-            "end": 132973,
+            "start": 185987,
+            "end": 193644,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -884,13 +884,13 @@
         "var_R@100": 0.002,
         "var_Judged@10": 0.012,
         "run_details": {
-            "start": 354185,
-            "end": 368433,
+            "start": 1092395,
+            "end": 1138724,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 132974,
-            "end": 137067,
+            "start": 193645,
+            "end": 200919,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -920,13 +920,13 @@
         "var_R@100": 0.011,
         "var_Judged@10": 0.046,
         "run_details": {
-            "start": 368434,
-            "end": 384601,
+            "start": 1138725,
+            "end": 1186920,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 137068,
-            "end": 142986,
+            "start": 200920,
+            "end": 209229,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -956,13 +956,13 @@
         "var_R@100": 0.003,
         "var_Judged@10": 0.035,
         "run_details": {
-            "start": 384602,
-            "end": 400641,
+            "start": 1186921,
+            "end": 1234910,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 142987,
-            "end": 150435,
+            "start": 209230,
+            "end": 218239,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -992,13 +992,13 @@
         "var_R@100": 0.006,
         "var_Judged@10": 0.026,
         "run_details": {
-            "start": 400642,
-            "end": 419984,
+            "start": 1234911,
+            "end": 1284950,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 150436,
-            "end": 158835,
+            "start": 218240,
+            "end": 228402,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1028,13 +1028,13 @@
         "var_R@100": 0.007,
         "var_Judged@10": 0.028,
         "run_details": {
-            "start": 419985,
-            "end": 436716,
+            "start": 1284951,
+            "end": 1331866,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 158836,
-            "end": 166054,
+            "start": 228403,
+            "end": 237583,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1064,13 +1064,13 @@
         "var_R@100": 0.021,
         "var_Judged@10": 0.023,
         "run_details": {
-            "start": 436717,
-            "end": 454202,
+            "start": 1331867,
+            "end": 1379169,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 166055,
-            "end": 173349,
+            "start": 237584,
+            "end": 247037,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1100,13 +1100,13 @@
         "var_R@100": 0.026,
         "var_Judged@10": 0.023,
         "run_details": {
-            "start": 454203,
-            "end": 468480,
+            "start": 1379170,
+            "end": 1426987,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 173350,
-            "end": 180270,
+            "start": 247038,
+            "end": 256323,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1136,13 +1136,13 @@
         "var_R@100": 0.014,
         "var_Judged@10": 0.018,
         "run_details": {
-            "start": 468481,
-            "end": 480072,
+            "start": 1426988,
+            "end": 1469857,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 180271,
-            "end": 186158,
+            "start": 256324,
+            "end": 262681,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1172,13 +1172,13 @@
         "var_R@100": 0.006,
         "var_Judged@10": 0.055,
         "run_details": {
-            "start": 480073,
-            "end": 492404,
+            "start": 1469858,
+            "end": 1511179,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 186159,
-            "end": 193007,
+            "start": 262682,
+            "end": 270839,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1208,13 +1208,13 @@
         "var_R@100": 0.003,
         "var_Judged@10": 0.012,
         "run_details": {
-            "start": 492405,
-            "end": 510392,
+            "start": 1511180,
+            "end": 1560246,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 193008,
-            "end": 200073,
+            "start": 270840,
+            "end": 280308,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1244,13 +1244,13 @@
         "var_R@100": 0.005,
         "var_Judged@10": 0.039,
         "run_details": {
-            "start": 510393,
-            "end": 526736,
+            "start": 1560247,
+            "end": 1609098,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 200074,
-            "end": 205372,
+            "start": 280309,
+            "end": 288970,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1280,13 +1280,13 @@
         "var_R@100": 0.009,
         "var_Judged@10": 0.066,
         "run_details": {
-            "start": 526737,
-            "end": 542381,
+            "start": 1609099,
+            "end": 1656212,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 205373,
-            "end": 213692,
+            "start": 288971,
+            "end": 297821,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1316,13 +1316,13 @@
         "var_R@100": 0.036,
         "var_Judged@10": 0.011,
         "run_details": {
-            "start": 542382,
-            "end": 556910,
+            "start": 1656213,
+            "end": 1705331,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 213693,
-            "end": 219820,
+            "start": 297822,
+            "end": 305479,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1352,13 +1352,13 @@
         "var_R@100": 0.015,
         "var_Judged@10": 0.026,
         "run_details": {
-            "start": 556911,
-            "end": 573611,
+            "start": 1705332,
+            "end": 1752960,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 219821,
-            "end": 227936,
+            "start": 305480,
+            "end": 314716,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1388,13 +1388,13 @@
         "var_R@100": 0.004,
         "var_Judged@10": 0.035,
         "run_details": {
-            "start": 573612,
-            "end": 588857,
+            "start": 1752961,
+            "end": 1796567,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 227937,
-            "end": 234190,
+            "start": 314717,
+            "end": 322525,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1424,13 +1424,13 @@
         "var_R@100": 0.004,
         "var_Judged@10": 0.023,
         "run_details": {
-            "start": 588858,
-            "end": 602811,
+            "start": 1796568,
+            "end": 1843884,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 234191,
-            "end": 241269,
+            "start": 322526,
+            "end": 330725,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1460,13 +1460,13 @@
         "var_R@100": 0.015,
         "var_Judged@10": 0.031,
         "run_details": {
-            "start": 602812,
-            "end": 614613,
+            "start": 1843885,
+            "end": 1886159,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 241270,
-            "end": 245773,
+            "start": 330726,
+            "end": 338996,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1496,13 +1496,13 @@
         "var_R@100": 0.004,
         "var_Judged@10": 0.034,
         "run_details": {
-            "start": 614614,
-            "end": 627333,
+            "start": 1886160,
+            "end": 1928986,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 245774,
-            "end": 251451,
+            "start": 338997,
+            "end": 346185,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1532,13 +1532,13 @@
         "var_R@100": 0.003,
         "var_Judged@10": 0.064,
         "run_details": {
-            "start": 627334,
-            "end": 642301,
+            "start": 1928987,
+            "end": 1976394,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 251452,
-            "end": 255519,
+            "start": 346186,
+            "end": 356239,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1568,13 +1568,13 @@
         "var_R@100": 0.001,
         "var_Judged@10": 0.009,
         "run_details": {
-            "start": 642302,
-            "end": 652209,
+            "start": 1976395,
+            "end": 2011497,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 255520,
-            "end": 259429,
+            "start": 356240,
+            "end": 361448,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1604,13 +1604,13 @@
         "var_R@100": 0.0,
         "var_Judged@10": 0.004,
         "run_details": {
-            "start": 652210,
-            "end": 661557,
+            "start": 2011498,
+            "end": 2044459,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 259430,
-            "end": 263452,
+            "start": 361449,
+            "end": 366176,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1640,13 +1640,13 @@
         "var_R@100": 0.014,
         "var_Judged@10": 0.044,
         "run_details": {
-            "start": 661558,
-            "end": 675564,
+            "start": 2044460,
+            "end": 2084733,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 263453,
-            "end": 269957,
+            "start": 366177,
+            "end": 373197,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1676,13 +1676,13 @@
         "var_R@100": 0.002,
         "var_Judged@10": 0.031,
         "run_details": {
-            "start": 675565,
-            "end": 687805,
+            "start": 2084734,
+            "end": 2122469,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 269958,
-            "end": 275279,
+            "start": 373198,
+            "end": 379614,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1712,13 +1712,13 @@
         "var_R@100": 0.086,
         "var_Judged@10": 0.012,
         "run_details": {
-            "start": 687806,
-            "end": 700568,
+            "start": 2122470,
+            "end": 2160005,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 275280,
-            "end": 280376,
+            "start": 379615,
+            "end": 387472,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1748,13 +1748,13 @@
         "var_R@100": 0.006,
         "var_Judged@10": 0.113,
         "run_details": {
-            "start": 700569,
-            "end": 714493,
+            "start": 2160006,
+            "end": 2202920,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 280377,
-            "end": 286238,
+            "start": 387473,
+            "end": 394855,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1784,13 +1784,13 @@
         "var_R@100": 0.005,
         "var_Judged@10": 0.021,
         "run_details": {
-            "start": 714494,
-            "end": 728091,
+            "start": 2202921,
+            "end": 2242147,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 286239,
-            "end": 292306,
+            "start": 394856,
+            "end": 402026,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1820,13 +1820,13 @@
         "var_R@100": 0.018,
         "var_Judged@10": 0.042,
         "run_details": {
-            "start": 728092,
-            "end": 742276,
+            "start": 2242148,
+            "end": 2286630,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 292307,
-            "end": 298596,
+            "start": 402027,
+            "end": 410267,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1856,13 +1856,13 @@
         "var_R@100": 0.006,
         "var_Judged@10": 0.044,
         "run_details": {
-            "start": 742277,
-            "end": 754810,
+            "start": 2286631,
+            "end": 2325667,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 298597,
-            "end": 304464,
+            "start": 410268,
+            "end": 416825,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1892,13 +1892,13 @@
         "var_R@100": 0.01,
         "var_Judged@10": 0.066,
         "run_details": {
-            "start": 754811,
-            "end": 771409,
+            "start": 2325668,
+            "end": 2375760,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 304465,
-            "end": 311139,
+            "start": 416826,
+            "end": 424835,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1928,13 +1928,13 @@
         "var_R@100": 0.001,
         "var_Judged@10": 0.044,
         "run_details": {
-            "start": 771410,
-            "end": 780666,
+            "start": 2375761,
+            "end": 2411542,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 311140,
-            "end": 315636,
+            "start": 424836,
+            "end": 429589,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -1964,13 +1964,13 @@
         "var_R@100": 0.005,
         "var_Judged@10": 0.005,
         "run_details": {
-            "start": 780667,
-            "end": 795483,
+            "start": 2411543,
+            "end": 2462305,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 315637,
-            "end": 320740,
+            "start": 429590,
+            "end": 436843,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2000,13 +2000,13 @@
         "var_R@100": 0.015,
         "var_Judged@10": 0.046,
         "run_details": {
-            "start": 795484,
-            "end": 810984,
+            "start": 2462306,
+            "end": 2509252,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 320741,
-            "end": 327044,
+            "start": 436844,
+            "end": 444877,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2036,13 +2036,13 @@
         "var_R@100": 0.006,
         "var_Judged@10": 0.029,
         "run_details": {
-            "start": 810985,
-            "end": 828877,
+            "start": 2509253,
+            "end": 2556978,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 327045,
-            "end": 333762,
+            "start": 444878,
+            "end": 453537,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2072,13 +2072,13 @@
         "var_R@100": 0.0,
         "var_Judged@10": 0.0,
         "run_details": {
-            "start": 828878,
-            "end": 834970,
+            "start": 2556979,
+            "end": 2570256,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 333763,
-            "end": 334872,
+            "start": 453538,
+            "end": 456318,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2108,13 +2108,13 @@
         "var_R@100": 0.029,
         "var_Judged@10": 0.046,
         "run_details": {
-            "start": 834971,
-            "end": 852746,
+            "start": 2570257,
+            "end": 2620445,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 334873,
-            "end": 342603,
+            "start": 456319,
+            "end": 465620,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2144,13 +2144,13 @@
         "var_R@100": 0.012,
         "var_Judged@10": 0.026,
         "run_details": {
-            "start": 852747,
-            "end": 869880,
+            "start": 2620446,
+            "end": 2668697,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 342604,
-            "end": 349678,
+            "start": 465621,
+            "end": 475065,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2180,13 +2180,13 @@
         "var_R@100": 0.008,
         "var_Judged@10": 0.045,
         "run_details": {
-            "start": 869881,
-            "end": 884673,
+            "start": 2668698,
+            "end": 2712248,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 349679,
-            "end": 355947,
+            "start": 475066,
+            "end": 483258,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2216,13 +2216,13 @@
         "var_R@100": 0.015,
         "var_Judged@10": 0.053,
         "run_details": {
-            "start": 884674,
-            "end": 899981,
+            "start": 2712249,
+            "end": 2761410,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 355948,
-            "end": 362646,
+            "start": 483259,
+            "end": 491489,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2252,13 +2252,13 @@
         "var_R@100": 0.002,
         "var_Judged@10": 0.029,
         "run_details": {
-            "start": 899982,
-            "end": 912432,
+            "start": 2761411,
+            "end": 2799667,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 362647,
-            "end": 366334,
+            "start": 491490,
+            "end": 498748,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2288,13 +2288,13 @@
         "var_R@100": 0.001,
         "var_Judged@10": 0.014,
         "run_details": {
-            "start": 912433,
-            "end": 927798,
+            "start": 2799668,
+            "end": 2850689,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 366335,
-            "end": 372985,
+            "start": 498749,
+            "end": 506953,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2324,13 +2324,13 @@
         "var_R@100": 0.022,
         "var_Judged@10": 0.042,
         "run_details": {
-            "start": 927799,
-            "end": 941953,
+            "start": 2850690,
+            "end": 2891357,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 372986,
-            "end": 376667,
+            "start": 506954,
+            "end": 515036,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2360,13 +2360,13 @@
         "var_R@100": 0.007,
         "var_Judged@10": 0.011,
         "run_details": {
-            "start": 941954,
-            "end": 953338,
+            "start": 2891358,
+            "end": 2931070,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 376668,
-            "end": 381920,
+            "start": 515037,
+            "end": 521398,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2396,13 +2396,13 @@
         "var_R@100": 0.028,
         "var_Judged@10": 0.034,
         "run_details": {
-            "start": 953339,
-            "end": 967157,
+            "start": 2931071,
+            "end": 2971969,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 381921,
-            "end": 390195,
+            "start": 521399,
+            "end": 530171,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
@@ -2432,13 +2432,13 @@
         "var_R@100": 0.019,
         "var_Judged@10": 0.054,
         "run_details": {
-            "start": 240149,
-            "end": 254334,
+            "start": 745667,
+            "end": 788805,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 390196,
-            "end": 397843,
+            "start": 530172,
+            "end": 540406,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {

@@ -99,7 +99,6 @@ export default {
           ],
           'deliverable': 'System submission'
         },
-
         {
           'milestone': 'Milestone 4',
           'deadline': '14.07.2024',
