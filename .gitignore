@@ -1,0 +1,11 @@
+static/dist/
+__pycache__
+.coverage
+ui/coverage/badge-branches.svg
+ui/coverage/badge-statements.svg
+ui/coverage/clover.xml
+ui/coverage/coverage-final.json
+ui/coverage/coverage-summary.json
+ui/coverage/lcov-report/
+ui/coverage/lcov.info
+ui/coverage/badge-functions.svg
