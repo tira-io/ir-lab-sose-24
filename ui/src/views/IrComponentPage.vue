@@ -27,7 +27,7 @@
           <v-row v-for="(row, index) in vectorizedComponents" :key="'component-col-' + i + '-row-' + index">
             <v-menu>
             <template v-slot:activator="{ props }">
-              <v-card v-bind="props" v-if="vectorizedComponents[index][i-1] && vectorizedComponents[index][i-1]?.display_name && !vectorizedComponents[index][i-1].hide" class="ma-1 w-100 text-start" :max-width="max_width" :color="vectorizedComponents[index][i-1]?.color" variant="tonal" style="cursor: pointer;">
+              <v-card v-bind="props" v-if="vectorizedComponents[index][i-1] && vectorizedComponents[index][i-1]?.display_name && !vectorizedComponents[index][i-1].hide" :class="'ma-1 w-100 text-start ' + vectorizedComponents[index][i-1]?.class" :max-width="max_width" :color="vectorizedComponents[index][i-1]?.color" variant="tonal" style="cursor: pointer;">
                 <v-card-item><span class="text-h6 mb-1">{{ vectorizedComponents[index][i-1]?.display_name }}</span><span style="font-size: .7em;" v-if="vectorizedComponents[index][i-1].collapsed && vectorizedComponents[index][i-1].subItems > 0">&nbsp;&nbsp;(+&nbsp;{{ vectorizedComponents[index][i-1].subItems }})</span></v-card-item>
               </v-card>
             </template>
@@ -213,6 +213,7 @@ export default {
               'subItems': this.countSubItems(sub_c),
               'pos': ret.length + 1,
               'links': sub_c['links'],
+              'class': 'ml-5',
               'focus_type': 'focus_type' in sub_c ? sub_c['focus_type'] : null,
               'component_type': 'component_type' in sub_c ? sub_c['component_type'] : null,
               'tirex_submission_id': sub_c['tirex_submission_id'],
@@ -326,6 +327,7 @@ export default {
             'display_name': subcomponent['display_name'],
             'color': this.colorOfComponent(c.display_name),
             'subItems': subcomponent['subItems'],
+            'class': subcomponent['class'],
             'links': subcomponent.links,
             'collapsed': this.is_collapsed(subcomponent),
             'hide': this.hide_component(subcomponent),
