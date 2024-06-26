@@ -66,8 +66,39 @@
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-20240504-training", "qid": "67", "default_text": "lemmatization algorithms", "description": "Which papers cover lemmatization algorithms?", "narrative": "Relevant IR documents cover the topic of lemmatization algorithms. Papers on the basic funktion of lemmatization algorithms and their integration into search engines"}
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-20240504-training", "qid": "68", "default_text": "filter ad rich documents", "description": "None", "narrative": "How to filter webpages that have tons of ads and pop ups out of ir search with maintaining low search time"}
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-20240504-training", "qid": "18", "default_text": "Advancements in Information Retrieval", "description": "None", "narrative": "Relevant texts contain Innovations or Advancements in Information Retrieval in recent years (e.g. after 2010)"}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "1", "default_text": "accuracy of symptom searching on online platforms", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "5", "default_text": "wildcard operators", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "10", "default_text": "machine learning techniques in information retrieval", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "13", "default_text": "pro and contra of boolean queries", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "14", "default_text": "soundex", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "15", "default_text": "advantages of boolean retrieval", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "16", "default_text": "the use of boolean retrieval in library catalogues", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "19", "default_text": "boolean retrieval effectiveness", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "21", "default_text": "boolean operators", "description": null, "narrative": null}
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "24", "default_text": "digital technologies in libraries", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "26", "default_text": "zipf s law in information science", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "27", "default_text": "boolean retrieval and information retrieval", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "29", "default_text": "limits of modern libraries", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "30", "default_text": "the use of boolean operators in library systems", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "32", "default_text": "evaluation of the ranking in search results", "description": null, "narrative": null}
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "33", "default_text": "information retrieval jobs", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "37", "default_text": "boolean algebra", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "38", "default_text": "relevance criteria criteria for relevant search results", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "39", "default_text": "zipf s law", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "40", "default_text": "boolean retrieval model", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "41", "default_text": "indexing in information retrieval systems", "description": null, "narrative": null}
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "43", "default_text": "problems of retrieval systems", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "44", "default_text": "online quizzes", "description": null, "narrative": null}
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "49", "default_text": "evaluation", "description": null, "narrative": null}
 {"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "50", "default_text": "machine learning in information retrieval", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "51", "default_text": "artificial intelligence in medical diagnostics", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "53", "default_text": "zipf s law and information retrieval", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "55", "default_text": "boolean queries", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "56", "default_text": "fishing in germany", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "57", "default_text": "the history and development of information retrieval", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "58", "default_text": "zipf s law", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "59", "default_text": "automatic indexing", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "61", "default_text": "zipf s law", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "63", "default_text": "the role of user feedback in enhancing search engine relevance", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "65", "default_text": "multimedia in information retrieval", "description": null, "narrative": null}
+{"dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test", "qid": "67", "default_text": "social media information retrieval", "description": null, "narrative": null}

@@ -2449,6 +2449,222 @@
     },
     {
         "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "1",
+        "default_text": "accuracy of symptom searching on online platforms",
+        "min_P@10": 0.1,
+        "max_P@10": 1.0,
+        "median_P@10": 0.8,
+        "min_R@100": 0.371,
+        "max_R@100": 0.771,
+        "median_R@100": 0.686,
+        "min_nDCG@10": 0.085,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.764,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.051,
+        "var_P@10": 0.055,
+        "var_R@100": 0.018,
+        "var_Judged@10": 0.049,
+        "run_details": {
+            "start": 2971969,
+            "end": 3012727,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 658659,
+            "end": 668859,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 28843,
+            "end": 29051,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "5",
+        "default_text": "wildcard operators",
+        "min_P@10": 0.0,
+        "max_P@10": 0.2,
+        "median_P@10": 0.1,
+        "min_R@100": 0.5,
+        "max_R@100": 1.0,
+        "median_R@100": 0.5,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.613,
+        "median_nDCG@10": 0.347,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.035,
+        "var_P@10": 0.002,
+        "var_R@100": 0.056,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 3012728,
+            "end": 3045930,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 874318,
+            "end": 882510,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 29052,
+            "end": 29229,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "10",
+        "default_text": "machine learning techniques in information retrieval",
+        "min_P@10": 0.6,
+        "max_P@10": 1.0,
+        "median_P@10": 0.75,
+        "min_R@100": 0.356,
+        "max_R@100": 0.622,
+        "median_R@100": 0.589,
+        "min_nDCG@10": 0.627,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.795,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.011,
+        "var_P@10": 0.014,
+        "var_R@100": 0.011,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 3045931,
+            "end": 3093669,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 754429,
+            "end": 767993,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 29230,
+            "end": 29442,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "13",
+        "default_text": "pro and contra of boolean queries",
+        "min_P@10": 0.2,
+        "max_P@10": 0.9,
+        "median_P@10": 0.6,
+        "min_R@100": 0.531,
+        "max_R@100": 0.906,
+        "median_R@100": 0.812,
+        "min_nDCG@10": 0.136,
+        "max_nDCG@10": 0.927,
+        "median_nDCG@10": 0.651,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.05,
+        "var_P@10": 0.043,
+        "var_R@100": 0.016,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 3093670,
+            "end": 3136009,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 814899,
+            "end": 827313,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 29443,
+            "end": 29636,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "15",
+        "default_text": "advantages of boolean retrieval",
+        "min_P@10": 0.4,
+        "max_P@10": 0.8,
+        "median_P@10": 0.6,
+        "min_R@100": 0.429,
+        "max_R@100": 1.0,
+        "median_R@100": 0.893,
+        "min_nDCG@10": 0.497,
+        "max_nDCG@10": 0.855,
+        "median_nDCG@10": 0.683,
+        "min_Judged@10": 0.8,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.015,
+        "var_P@10": 0.014,
+        "var_R@100": 0.04,
+        "var_Judged@10": 0.003,
+        "run_details": {
+            "start": 3136010,
+            "end": 3175973,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 635143,
+            "end": 646036,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 29805,
+            "end": 29996,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "21",
+        "default_text": "boolean operators",
+        "min_P@10": 0.1,
+        "max_P@10": 1.0,
+        "median_P@10": 0.75,
+        "min_R@100": 0.48,
+        "max_R@100": 1.0,
+        "median_R@100": 0.84,
+        "min_nDCG@10": 0.078,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.82,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.103,
+        "var_P@10": 0.095,
+        "var_R@100": 0.022,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 3175974,
+            "end": 3214718,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 577387,
+            "end": 586806,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 30400,
+            "end": 30577,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
         "query_id": "24",
         "default_text": "digital technologies in libraries",
         "min_P@10": 0.5,
@@ -2468,18 +2684,198 @@
         "var_R@100": 0.012,
         "var_Judged@10": 0.008,
         "run_details": {
-            "start": 2971969,
-            "end": 3012063,
+            "start": 3214719,
+            "end": 3254813,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 540407,
-            "end": 552361,
+            "start": 623188,
+            "end": 635142,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 28843,
-            "end": 29036,
+            "start": 30578,
+            "end": 30771,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "26",
+        "default_text": "zipf s law in information science",
+        "min_P@10": 0.4,
+        "max_P@10": 0.5,
+        "median_P@10": 0.5,
+        "min_R@100": 0.812,
+        "max_R@100": 0.938,
+        "median_R@100": 0.938,
+        "min_nDCG@10": 0.287,
+        "max_nDCG@10": 0.62,
+        "median_nDCG@10": 0.455,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.007,
+        "var_P@10": 0.001,
+        "var_R@100": 0.002,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 3254814,
+            "end": 3287566,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 549072,
+            "end": 555611,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 30772,
+            "end": 30965,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "27",
+        "default_text": "boolean retrieval and information retrieval",
+        "min_P@10": 0.1,
+        "max_P@10": 0.7,
+        "median_P@10": 0.3,
+        "min_R@100": 0.455,
+        "max_R@100": 1.0,
+        "median_R@100": 0.955,
+        "min_nDCG@10": 0.095,
+        "max_nDCG@10": 0.531,
+        "median_nDCG@10": 0.322,
+        "min_Judged@10": 0.7,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.015,
+        "var_P@10": 0.026,
+        "var_R@100": 0.034,
+        "var_Judged@10": 0.007,
+        "run_details": {
+            "start": 3287567,
+            "end": 3328355,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 882511,
+            "end": 892627,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 30966,
+            "end": 31169,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "29",
+        "default_text": "limits of modern libraries",
+        "min_P@10": 0.1,
+        "max_P@10": 0.6,
+        "median_P@10": 0.3,
+        "min_R@100": 0.115,
+        "max_R@100": 0.615,
+        "median_R@100": 0.538,
+        "min_nDCG@10": 0.066,
+        "max_nDCG@10": 0.677,
+        "median_nDCG@10": 0.32,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.029,
+        "var_P@10": 0.021,
+        "var_R@100": 0.023,
+        "var_Judged@10": 0.027,
+        "run_details": {
+            "start": 3328356,
+            "end": 3371653,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 798804,
+            "end": 814898,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 31170,
+            "end": 31356,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "30",
+        "default_text": "the use of boolean operators in library systems",
+        "min_P@10": 0.1,
+        "max_P@10": 0.3,
+        "median_P@10": 0.2,
+        "min_R@100": 0.5,
+        "max_R@100": 1.0,
+        "median_R@100": 0.667,
+        "min_nDCG@10": 0.095,
+        "max_nDCG@10": 0.601,
+        "median_nDCG@10": 0.442,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.033,
+        "var_P@10": 0.006,
+        "var_R@100": 0.014,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 3371654,
+            "end": 3409639,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 710360,
+            "end": 720221,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 31357,
+            "end": 31564,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "32",
+        "default_text": "evaluation of the ranking in search results",
+        "min_P@10": 0.6,
+        "max_P@10": 1.0,
+        "median_P@10": 0.9,
+        "min_R@100": 0.317,
+        "max_R@100": 0.583,
+        "median_R@100": 0.517,
+        "min_nDCG@10": 0.685,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.822,
+        "min_Judged@10": 0.7,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.009,
+        "var_P@10": 0.009,
+        "var_R@100": 0.005,
+        "var_Judged@10": 0.007,
+        "run_details": {
+            "start": 3409640,
+            "end": 3458276,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 609122,
+            "end": 623187,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 31565,
+            "end": 31768,
             "path": "qrel-details.jsonl"
         }
     },
@@ -2504,18 +2900,198 @@
         "var_R@100": 0.024,
         "var_Judged@10": 0.025,
         "run_details": {
-            "start": 3012064,
-            "end": 3059180,
+            "start": 3458277,
+            "end": 3505393,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 566235,
-            "end": 579257,
+            "start": 847991,
+            "end": 861013,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 29037,
-            "end": 29223,
+            "start": 31769,
+            "end": 31955,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "37",
+        "default_text": "boolean algebra",
+        "min_P@10": 0.0,
+        "max_P@10": 0.6,
+        "median_P@10": 0.25,
+        "min_R@100": 0.438,
+        "max_R@100": 0.875,
+        "median_R@100": 0.812,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.687,
+        "median_nDCG@10": 0.232,
+        "min_Judged@10": 0.8,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.033,
+        "var_P@10": 0.033,
+        "var_R@100": 0.029,
+        "var_Judged@10": 0.003,
+        "run_details": {
+            "start": 3505394,
+            "end": 3546391,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 646037,
+            "end": 658658,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 31956,
+            "end": 32131,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "38",
+        "default_text": "relevance criteria criteria for relevant search results",
+        "min_P@10": 0.1,
+        "max_P@10": 0.8,
+        "median_P@10": 0.6,
+        "min_R@100": 0.368,
+        "max_R@100": 1.0,
+        "median_R@100": 0.947,
+        "min_nDCG@10": 0.073,
+        "max_nDCG@10": 0.756,
+        "median_nDCG@10": 0.627,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.031,
+        "var_P@10": 0.03,
+        "var_R@100": 0.05,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 3546392,
+            "end": 3585075,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 540407,
+            "end": 549071,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 32132,
+            "end": 32347,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "39",
+        "default_text": "zipf s law",
+        "min_P@10": 0.3,
+        "max_P@10": 0.6,
+        "median_P@10": 0.5,
+        "min_R@100": 0.75,
+        "max_R@100": 1.0,
+        "median_R@100": 1.0,
+        "min_nDCG@10": 0.259,
+        "max_nDCG@10": 0.707,
+        "median_nDCG@10": 0.46,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.02,
+        "var_P@10": 0.009,
+        "var_R@100": 0.005,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 3585076,
+            "end": 3616101,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 691614,
+            "end": 697378,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 32348,
+            "end": 32518,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "40",
+        "default_text": "boolean retrieval model",
+        "min_P@10": 0.5,
+        "max_P@10": 0.8,
+        "median_P@10": 0.6,
+        "min_R@100": 0.522,
+        "max_R@100": 0.957,
+        "median_R@100": 0.783,
+        "min_nDCG@10": 0.38,
+        "max_nDCG@10": 0.824,
+        "median_nDCG@10": 0.621,
+        "min_Judged@10": 0.8,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.015,
+        "var_P@10": 0.009,
+        "var_R@100": 0.014,
+        "var_Judged@10": 0.003,
+        "run_details": {
+            "start": 3616102,
+            "end": 3654349,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 776054,
+            "end": 785108,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 32519,
+            "end": 32702,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "41",
+        "default_text": "indexing in information retrieval systems",
+        "min_P@10": 0.1,
+        "max_P@10": 0.8,
+        "median_P@10": 0.5,
+        "min_R@100": 0.371,
+        "max_R@100": 0.6,
+        "median_R@100": 0.571,
+        "min_nDCG@10": 0.139,
+        "max_nDCG@10": 0.82,
+        "median_nDCG@10": 0.526,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.047,
+        "var_P@10": 0.039,
+        "var_R@100": 0.006,
+        "var_Judged@10": 0.037,
+        "run_details": {
+            "start": 3654350,
+            "end": 3702162,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 785109,
+            "end": 798803,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 32703,
+            "end": 32904,
             "path": "qrel-details.jsonl"
         }
     },
@@ -2540,18 +3116,54 @@
         "var_R@100": 0.009,
         "var_Judged@10": 0.027,
         "run_details": {
-            "start": 3059181,
-            "end": 3107949,
+            "start": 3702163,
+            "end": 3750931,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 552362,
-            "end": 566234,
+            "start": 740556,
+            "end": 754428,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 29224,
-            "end": 29413,
+            "start": 32905,
+            "end": 33094,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "44",
+        "default_text": "online quizzes",
+        "min_P@10": 0.1,
+        "max_P@10": 0.8,
+        "median_P@10": 0.6,
+        "min_R@100": 0.154,
+        "max_R@100": 1.0,
+        "median_R@100": 0.923,
+        "min_nDCG@10": 0.064,
+        "max_nDCG@10": 0.772,
+        "median_nDCG@10": 0.62,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.047,
+        "var_P@10": 0.048,
+        "var_R@100": 0.064,
+        "var_Judged@10": 0.027,
+        "run_details": {
+            "start": 3750932,
+            "end": 3790466,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 668860,
+            "end": 678876,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 33095,
+            "end": 33269,
             "path": "qrel-details.jsonl"
         }
     },
@@ -2576,18 +3188,18 @@
         "var_R@100": 0.02,
         "var_Judged@10": 0.007,
         "run_details": {
-            "start": 3107950,
-            "end": 3151491,
+            "start": 3790467,
+            "end": 3834008,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 592017,
-            "end": 605320,
+            "start": 861014,
+            "end": 874317,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 29414,
-            "end": 29584,
+            "start": 33270,
+            "end": 33440,
             "path": "qrel-details.jsonl"
         }
     },
@@ -2612,18 +3224,414 @@
         "var_R@100": 0.019,
         "var_Judged@10": 0.004,
         "run_details": {
-            "start": 3151492,
-            "end": 3198360,
+            "start": 3834009,
+            "end": 3880877,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 579258,
-            "end": 592016,
+            "start": 720222,
+            "end": 732980,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 29585,
-            "end": 29786,
+            "start": 33441,
+            "end": 33642,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "51",
+        "default_text": "artificial intelligence in medical diagnostics",
+        "min_P@10": 0.1,
+        "max_P@10": 0.9,
+        "median_P@10": 0.5,
+        "min_R@100": 0.417,
+        "max_R@100": 0.833,
+        "median_R@100": 0.667,
+        "min_nDCG@10": 0.139,
+        "max_nDCG@10": 0.931,
+        "median_nDCG@10": 0.539,
+        "min_Judged@10": 0.7,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.04,
+        "var_P@10": 0.045,
+        "var_R@100": 0.014,
+        "var_Judged@10": 0.007,
+        "run_details": {
+            "start": 3880878,
+            "end": 3919660,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 598100,
+            "end": 609121,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 33643,
+            "end": 33849,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "53",
+        "default_text": "zipf s law and information retrieval",
+        "min_P@10": 0.8,
+        "max_P@10": 1.0,
+        "median_P@10": 0.9,
+        "min_R@100": 0.667,
+        "max_R@100": 0.967,
+        "median_R@100": 0.917,
+        "min_nDCG@10": 0.783,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.926,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.005,
+        "var_P@10": 0.006,
+        "var_R@100": 0.008,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 3919661,
+            "end": 3953196,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 892628,
+            "end": 899829,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 33850,
+            "end": 34046,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "55",
+        "default_text": "boolean queries",
+        "min_P@10": 0.3,
+        "max_P@10": 0.6,
+        "median_P@10": 0.5,
+        "min_R@100": 0.5,
+        "max_R@100": 0.917,
+        "median_R@100": 0.792,
+        "min_nDCG@10": 0.366,
+        "max_nDCG@10": 0.669,
+        "median_nDCG@10": 0.529,
+        "min_Judged@10": 0.7,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.011,
+        "var_P@10": 0.007,
+        "var_R@100": 0.017,
+        "var_Judged@10": 0.007,
+        "run_details": {
+            "start": 3953197,
+            "end": 3994674,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 836950,
+            "end": 847990,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 34047,
+            "end": 34222,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "56",
+        "default_text": "fishing in germany",
+        "min_P@10": 0.0,
+        "max_P@10": 0.5,
+        "median_P@10": 0.4,
+        "min_R@100": 0.625,
+        "max_R@100": 1.0,
+        "median_R@100": 1.0,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.688,
+        "median_nDCG@10": 0.483,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.082,
+        "var_P@10": 0.045,
+        "var_R@100": 0.018,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 3994675,
+            "end": 4030556,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 568262,
+            "end": 577386,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 34223,
+            "end": 34401,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "57",
+        "default_text": "the history and development of information retrieval",
+        "min_P@10": 0.1,
+        "max_P@10": 0.6,
+        "median_P@10": 0.3,
+        "min_R@100": 0.423,
+        "max_R@100": 0.654,
+        "median_R@100": 0.5,
+        "min_nDCG@10": 0.066,
+        "max_nDCG@10": 0.659,
+        "median_nDCG@10": 0.308,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.019,
+        "var_P@10": 0.014,
+        "var_R@100": 0.004,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 4030557,
+            "end": 4076291,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 697379,
+            "end": 710359,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 34402,
+            "end": 34614,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "58",
+        "default_text": "zipf s law",
+        "min_P@10": 0.0,
+        "max_P@10": 0.8,
+        "median_P@10": 0.7,
+        "min_R@100": 0.312,
+        "max_R@100": 1.0,
+        "median_R@100": 0.969,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.826,
+        "median_nDCG@10": 0.748,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.064,
+        "var_P@10": 0.055,
+        "var_R@100": 0.046,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 4076292,
+            "end": 4111336,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 767994,
+            "end": 776053,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 34615,
+            "end": 34785,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "59",
+        "default_text": "automatic indexing",
+        "min_P@10": 0.0,
+        "max_P@10": 1.0,
+        "median_P@10": 0.8,
+        "min_R@100": 0.125,
+        "max_R@100": 0.8,
+        "median_R@100": 0.575,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.853,
+        "min_Judged@10": 0.8,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.066,
+        "var_P@10": 0.063,
+        "var_R@100": 0.032,
+        "var_Judged@10": 0.003,
+        "run_details": {
+            "start": 4111337,
+            "end": 4152491,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 678877,
+            "end": 691613,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 34786,
+            "end": 34964,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "61",
+        "default_text": "zipf s law",
+        "min_P@10": 0.2,
+        "max_P@10": 1.0,
+        "median_P@10": 0.85,
+        "min_R@100": 0.278,
+        "max_R@100": 0.944,
+        "median_R@100": 0.778,
+        "min_nDCG@10": 0.315,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.895,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.063,
+        "var_P@10": 0.092,
+        "var_R@100": 0.046,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 4152492,
+            "end": 4186311,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 732981,
+            "end": 740555,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 34965,
+            "end": 35135,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "63",
+        "default_text": "the role of user feedback in enhancing search engine relevance",
+        "min_P@10": 0.6,
+        "max_P@10": 1.0,
+        "median_P@10": 0.75,
+        "min_R@100": 0.486,
+        "max_R@100": 0.8,
+        "median_R@100": 0.8,
+        "min_nDCG@10": 0.508,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.788,
+        "min_Judged@10": 0.8,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.024,
+        "var_P@10": 0.019,
+        "var_R@100": 0.011,
+        "var_Judged@10": 0.003,
+        "run_details": {
+            "start": 4186312,
+            "end": 4228768,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 827314,
+            "end": 836949,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 35136,
+            "end": 35358,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "65",
+        "default_text": "multimedia in information retrieval",
+        "min_P@10": 0.0,
+        "max_P@10": 1.0,
+        "median_P@10": 0.65,
+        "min_R@100": 0.2,
+        "max_R@100": 0.933,
+        "median_R@100": 0.9,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.698,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.136,
+        "var_P@10": 0.137,
+        "var_R@100": 0.054,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 4228769,
+            "end": 4270872,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 555612,
+            "end": 568261,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 35359,
+            "end": 35554,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test",
+        "query_id": "67",
+        "default_text": "social media information retrieval",
+        "min_P@10": 0.4,
+        "max_P@10": 0.9,
+        "median_P@10": 0.65,
+        "min_R@100": 0.382,
+        "max_R@100": 0.765,
+        "median_R@100": 0.721,
+        "min_nDCG@10": 0.335,
+        "max_nDCG@10": 0.936,
+        "median_nDCG@10": 0.628,
+        "min_Judged@10": 0.7,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.021,
+        "var_P@10": 0.022,
+        "var_R@100": 0.018,
+        "var_Judged@10": 0.007,
+        "run_details": {
+            "start": 4270873,
+            "end": 4314715,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 586807,
+            "end": 598099,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 35555,
+            "end": 35749,
             "path": "qrel-details.jsonl"
         }
     }
