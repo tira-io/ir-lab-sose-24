@@ -78,7 +78,7 @@
   <div class="d-flex" v-if="selected_runs">
     <v-row v-if="selected_topic" class="justify-center mx-2">
       <v-col :cols="columns" v-for="selected_run of selected_runs">
-        <serp :run="selected_run" :topic="selected_topic" :topic_details="topic_details" :reference_run_id="reference_run_id" @activate_run="activate_run"/>
+        <serp :run="selected_run" :topic="topic" :topic_details="topic_details" :reference_run_id="reference_run_id" @activate_run="activate_run"/>
       </v-col>
     </v-row>
   </div>

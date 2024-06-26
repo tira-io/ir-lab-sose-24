@@ -13,6 +13,13 @@ Components:
 
 ## Update the datasets
 
+Ensure tira is up-to-date:
+
+```
+pip3 uninstall -y tira
+pip3 install git+https://github.com/tira-io/tira.git@development#\&subdirectory=python-client
+```
+
 Add new datasets via:
 
 ```

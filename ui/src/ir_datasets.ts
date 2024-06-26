@@ -6,11 +6,13 @@ export default topics
 
 let data_access = {
 'databases': {
-    'ir-lab-sose-2024/ir-acl-anthology-20240504-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-sose-2024/ir-lab-sose-2024.db'
+    'ir-lab-sose-2024/ir-acl-anthology-20240504-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-sose-2024/ir-lab-sose-2024.db',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-sose-2024/ir-lab-sose-2024.db'
 
   },
   'documents': {
-    'ir-lab-sose-2024/ir-acl-anthology-20240504-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-sose-2024/inputs/documents.jsonl'
+    'ir-lab-sose-2024/ir-acl-anthology-20240504-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-sose-2024/inputs/documents.jsonl',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-sose-2024/inputs/documents.jsonl'
   }
 }
 

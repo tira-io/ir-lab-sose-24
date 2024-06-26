@@ -18,18 +18,21 @@ from diffir.run import MainTask
 tira = Client()
 
 IRDS_TO_TIREX_DATASET['ir-lab-sose-2024/ir-acl-anthology-20240504-training'] = 'ir-acl-anthology-20240504-training'
+IRDS_TO_TIREX_DATASET['ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test'] = 'ir-acl-anthology-topics-koeln-20240614-in-progress-test'
 
 ALTERNATIVES = {
+    'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': 'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-test'
 }
 
 diffir = MainTask(measure='qrel', weight={"weights_1": None, "weights_2": None})
 
-datasets = {i: ir_datasets.load(i) for i in ['ir-lab-sose-2024/ir-acl-anthology-20240504-training']}
+datasets = {i: ir_datasets.load(i) for i in ['ir-lab-sose-2024/ir-acl-anthology-20240504-training', 'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test']}
 
 dataset_to_docsstore = {i: ir_datasets.load(i).docs_store() for i in tqdm(datasets, 'Load docsstores.')}
 
 datasets_to_index = {
     'ir-lab-sose-2024/ir-acl-anthology-20240504-training': 'static/indexes/ir-lab-sose-2024.json.gz',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': 'static/indexes/ir-lab-sose-2024.json.gz',
 }
 
 qrels = {n: list(d.qrels_iter()) for n, d in datasets.items()}
@@ -117,7 +120,12 @@ def load_run(tira_run, dataset_name):
     if tira_run in tira_run_cache[dataset_name]:
         return tira_run_cache[dataset_name][tira_run]
 
-    tira_run_cache[dataset_name][tira_run] = tira.get_run_output(tira_run, IRDS_TO_TIREX_DATASET[dataset_name]) + '/run.txt'
+    try:
+        tira_run_cache[dataset_name][tira_run] = tira.get_run_output(tira_run, IRDS_TO_TIREX_DATASET[dataset_name]) + '/run.txt'
+    except Exception as e:
+        if dataset_name not in ALTERNATIVES:
+            raise e
+        tira_run_cache[dataset_name][tira_run] = tira.get_run_output(tira_run, ALTERNATIVES[dataset_name]) + '/run.txt'
 
     return tira_run_cache[dataset_name][tira_run]
 

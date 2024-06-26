@@ -10,8 +10,8 @@
   <div class="row" v-for="run in rendered_run">
     <div class="card" style="width: 95%" @click="open_dialog(run.doc_id)">
       <div class="card-header">
-        <div class="docid" style="right: 0px; width=100%"><div class="docid-value">{{ run.doc_id }}</div></div>
-        <h6 class="badge badge-info" title="Relevant" style="cursor: help;">Rel: {{run.relevance}}</h6>
+        <div class="docid" :style="'right: 0px; width=100%; background-color: ' + run.relevanceColor"><div class="docid-value">{{ run.doc_id }}</div></div>
+        <h6 class="badge badge-info" title="Relevant" :style="'cursor: help; background-color:' + run.relevanceColor">Rel: {{run.relevance}}</h6>
         <h6 class="badge">Score: {{run.score}}</h6>
         <div class="snippet">
           <div><span style="color: #999;" v-html="run.snippet"/></div>
@@ -73,10 +73,10 @@ export default {
       COLOR_B: '121, 196, 121',
       meta: {
         'relevanceColors': {
-          '0': [],
-          '1': ["#d54541"],  // red
-          '2': ["#6c272a", "#d54541"],  // dark red, red
-          '3': ["#6c272a", "#d54541", "#c7797a"],  // dark red, red, light red
+          '0': "red",
+          '1': "green",
+          '2': "green",
+          '3': "green",
         },
         'qrelDefs': {0: 'Not Relevant', 1: 'Related', '2': 'Relevant', '3': 'Highly Relevant'},
       },
@@ -101,11 +101,17 @@ export default {
           judgment = this.qrels[i.doc_id]
         }
 
+        let relevanceColor = undefined
+        if (judgment in this.meta['relevanceColors']) {
+          relevanceColor = this.meta['relevanceColors'][judgment]
+        }
+
         ret.push({
           'score': i['score'],
           'doc_id': i['doc_id'],
           'snippet': markup(doc['snippet'], doc['weights']),
           'relevance': judgment,
+          'relevanceColor': relevanceColor
         })
       }
 

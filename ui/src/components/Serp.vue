@@ -2,9 +2,8 @@
   <div @mouseover="make_this_run_active(true)" @mouseleave="make_this_run_active(false)">
     <h3>{{ title }}</h3>
     <br>
-    
     <diff-ir 
-      :docs="topic_details['docs']" :run="serp_run" :ir_dataset="this.run.split('____')[0]" v-if="topic_details"/>
+      :docs="topic_details['docs']" :run="serp_run" :ir_dataset="this.run.split('____')[0]" :qrels="qrel_data" v-if="topic_details"/>
   </div>
 </template>
 
@@ -21,7 +20,8 @@ export default {
     return {
       ranking: [{'doc_id': '1', 'relevance': 1, 'color': 'green'}, {'doc_id': '2', 'relevance': 0, 'color': 'red'}, {'doc_id': '3', 'relevance': 'U', 'color': 'grey'}],
       cache: {
-        'run-details.jsonl': {'start: 0 end: 100': {'runs': [{'name': 'does not exist', "P@10": 0.3, "nDCG@10": 0.203, "Judged@10": 0.3, 'relevance': ['U', '0', '1'], "docs": [{'doc_id': '1', 'doc_id_to_offset': {'start': 0, 'end': 0}}]}], 'dataset': '1', 'qid': '1'}}
+        'run-details.jsonl': {'start: 0 end: 100': {'runs': [{'name': 'does not exist', "P@10": 0.3, "nDCG@10": 0.203, "Judged@10": 0.3, 'relevance': ['U', '0', '1'], "docs": [{'doc_id': '1', 'doc_id_to_offset': {'start': 0, 'end': 0}}]}], 'dataset': '1', 'qid': '1'}},
+        'qrel-details.jsonl': {'0-100': {'qrels': [{"qid": "93", "relevance": 1, "doc_id": "182", "retrieved_by": "?? / ??", "median_rank": "??", "var_rank": "??"}]}},
       }
     }
   },
@@ -30,7 +30,16 @@ export default {
       if(active && this.reference_run_id != this.run) {
         this.$emit('activate_run', this.run);
       }
-    }
+    },
+    fetchData() {
+      get(this.topic['qrel_details'], this)
+    },
+  },
+  watch: {
+    topic(newValue) {this.fetchData()},
+  },
+  beforeMount() {
+    this.fetchData();
   },
   computed: {
     title() {
@@ -57,6 +66,22 @@ export default {
           return t
         }
       }
+    },
+    qrel_data() {
+      var qrels = this.cache['qrel-details.jsonl'][this.topic['qrel_details']['start'] + '-' + this.topic['qrel_details']['end']]
+      if (!qrels) {
+        return {}
+      }
+      var qrels = qrels['qrels']
+      if (!qrels) {
+        return {}
+      }
+
+      var ret = {}
+      for (let i of qrels) {
+        ret[i['doc_id']] = i['relevance']
+      }
+      return ret
     },
     ranking_2() {
       let entry = this.cache['run-details.jsonl'][this.topic_data['run_details']['start'] + '-' + this.topic_data['run_details']['end']]
