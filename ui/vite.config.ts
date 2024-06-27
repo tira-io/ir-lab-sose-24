@@ -28,6 +28,7 @@ export default defineConfig({
     extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx', '.vue'],
   },
   server: {
+    host: true,
     watch: {
       usePolling: true,
     },

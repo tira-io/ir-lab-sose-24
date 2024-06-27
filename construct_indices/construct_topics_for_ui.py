@@ -28,6 +28,21 @@ diffir = MainTask(measure='qrel', weight={"weights_1": None, "weights_2": None})
 
 datasets = {i: ir_datasets.load(i) for i in ['ir-lab-sose-2024/ir-acl-anthology-20240504-training', 'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test']}
 
+def parse_jsonl(file_name, field):
+    ret = {}
+    for l in open(file_name, 'r'):
+        l = json.loads(l)
+        ret[l['qid']] = l[field]
+    return ret
+
+alternative_descriptions = {
+    'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': parse_jsonl('./construct_indices/descriptions.jsonl', 'description'),
+}
+
+alternative_narratives = {
+    'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': parse_jsonl('./construct_indices/narratives.jsonl', 'narrative'),
+}
+
 dataset_to_docsstore = {i: ir_datasets.load(i).docs_store() for i in tqdm(datasets, 'Load docsstores.')}
 
 datasets_to_index = {
@@ -320,6 +335,10 @@ def main():
                 topic['narrative'] = i.narrative
             except:
                 pass
+
+            if (not topic.get('description') or not topic.get('narrative')) and dataset_name in alternative_descriptions:
+                topic['description'] = alternative_descriptions[dataset_name][str(i.query_id)]
+                topic['narrative'] = alternative_narratives[dataset_name][str(i.query_id)]
 
             topics += [topic]
 
