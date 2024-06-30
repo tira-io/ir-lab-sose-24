@@ -19,14 +19,21 @@ tira = Client()
 
 IRDS_TO_TIREX_DATASET['ir-lab-sose-2024/ir-acl-anthology-20240504-training'] = 'ir-acl-anthology-20240504-training'
 IRDS_TO_TIREX_DATASET['ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test'] = 'ir-acl-anthology-topics-koeln-20240614-in-progress-test'
+IRDS_TO_TIREX_DATASET['ir-lab-sose-2024/ir-acl-anthology-topics-leipzig-20240423-test'] = 'ir-acl-anthology-topics-leipzig-20240423-test'
+IRDS_TO_TIREX_DATASET['ir-lab-sose-2024/ir-acl-anthology-topics-augsburg-20240525_0-test'] = 'ir-acl-anthology-topics-augsburg-20240525_0-test'
 
 ALTERNATIVES = {
     'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': 'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-test'
 }
 
 diffir = MainTask(measure='qrel', weight={"weights_1": None, "weights_2": None})
-
-datasets = {i: ir_datasets.load(i) for i in ['ir-lab-sose-2024/ir-acl-anthology-20240504-training', 'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test']}
+datasets = [
+    'ir-lab-sose-2024/ir-acl-anthology-20240504-training',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-augsburg-20240525_0-test',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-leipzig-20240423-test'
+]
+datasets = {i: ir_datasets.load(i) for i in datasets}
 
 def parse_jsonl(file_name, field):
     ret = {}
@@ -37,10 +44,14 @@ def parse_jsonl(file_name, field):
 
 alternative_descriptions = {
     'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': parse_jsonl('./construct_indices/descriptions.jsonl', 'description'),
+    'ir-lab-sose-2024/ir-acl-anthology-topics-augsburg-20240525_0-test': parse_jsonl('./construct_indices/augsburg-descriptions.jsonl', 'description'),
+    'ir-lab-sose-2024/ir-acl-anthology-topics-leipzig-20240423-test': parse_jsonl('./construct_indices/leipzig-descriptions.jsonl', 'description'),
 }
 
 alternative_narratives = {
     'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': parse_jsonl('./construct_indices/narratives.jsonl', 'narrative'),
+    'ir-lab-sose-2024/ir-acl-anthology-topics-augsburg-20240525_0-test': parse_jsonl('./construct_indices/augsburg-narratives.jsonl', 'narrative'),
+    'ir-lab-sose-2024/ir-acl-anthology-topics-leipzig-20240423-test': parse_jsonl('./construct_indices/leipzig-narratives.jsonl', 'narrative'),
 }
 
 dataset_to_docsstore = {i: ir_datasets.load(i).docs_store() for i in tqdm(datasets, 'Load docsstores.')}
@@ -48,6 +59,8 @@ dataset_to_docsstore = {i: ir_datasets.load(i).docs_store() for i in tqdm(datase
 datasets_to_index = {
     'ir-lab-sose-2024/ir-acl-anthology-20240504-training': 'static/indexes/ir-lab-sose-2024.json.gz',
     'ir-lab-sose-2024/ir-acl-anthology-topics-koeln-20240614-in-progress-test': 'static/indexes/ir-lab-sose-2024.json.gz',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-leipzig-20240423-test': 'static/indexes/ir-lab-sose-2024.json.gz',
+    'ir-lab-sose-2024/ir-acl-anthology-topics-augsburg-20240525_0-test': 'static/indexes/ir-lab-sose-2024.json.gz',
 }
 
 qrels = {n: list(d.qrels_iter()) for n, d in datasets.items()}
@@ -150,6 +163,9 @@ LINKS = {
     'ir-lab-sose-2024/fschlatt/castorini-list-in-t5-150': 'https://arxiv.org/abs/2312.16098',
     'ir-lab-sose-2024/fschlatt/rank-zephyr': 'https://arxiv.org/abs/2312.02724',
     'ir-lab-sose-2024/naverlabseurope/Splade (re-ranker)': 'https://arxiv.org/abs/2107.05720',
+
+    'ir-lab-sose-2024/needthegrade/bigramsfinal2': 'https://github.com/tira-io/ir-lab-sose-2024-needthegrade/blob/06a4985e505152bd4a941b913f035aef56958c34/baseline-retrieval-system/bigramsfinal2.ipynb',
+    'ir-lab-sose-2024/needthegrade/bigramsfinal': 'https://github.com/tira-io/ir-lab-sose-2024-needthegrade/blob/06a4985e505152bd4a941b913f035aef56958c34/baseline-retrieval-system/bigramsfinal.ipynb',
 }
 
 tira_run_cache = {i: {} for i in datasets}
@@ -215,12 +231,19 @@ def load_run(tira_run, dataset_name):
     if tira_run in tira_run_cache[dataset_name]:
         return tira_run_cache[dataset_name][tira_run]
 
+    import time
+    time.sleep(.5)
+
     try:
         tira_run_cache[dataset_name][tira_run] = tira.get_run_output(tira_run, IRDS_TO_TIREX_DATASET[dataset_name]) + '/run.txt'
     except Exception as e:
         if dataset_name not in ALTERNATIVES:
             raise e
-        tira_run_cache[dataset_name][tira_run] = tira.get_run_output(tira_run, ALTERNATIVES[dataset_name]) + '/run.txt'
+        try:
+            tira_run_cache[dataset_name][tira_run] = tira.get_run_output(tira_run, ALTERNATIVES[dataset_name]) + '/run.txt'
+        except:
+            print('Error with ' + tira_run + ' on ' + dataset_name + '.')
+            raise e
 
     return tira_run_cache[dataset_name][tira_run]
 
@@ -228,7 +251,7 @@ def create_run_overview(dataset_name):
     ret = []
     for tira_run in tqdm(tira_runs, desc=f"Construct details on runs: {dataset_name}"):
         run = [i for i in ir_measures.read_trec_run(load_run(tira_run, dataset_name))]
-        run_entry = {'dataset': dataset_name, 'team': tira_run.split('/')[1], 'run': tira_run.split('/')[2], 'tira_run': tira_run}
+        run_entry = {'dataset': dataset_name, 'team': tira_run.split('/')[1], 'run': tira_run.split('/')[2], 'tira_run': tira_run, 'link': LINKS[tira_run]}
 
         for k,v in ir_measures.calc_aggregate(MEASURES, qrels[dataset_name], run).items():
             run_entry[str(k)] = float("{:.3f}".format(v))
