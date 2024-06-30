@@ -1,0 +1,49 @@
+{"qid": "1", "description": "what papers focus on the construction of the pagerank algorithm"}
+{"qid": "2", "description": "what papers focus on the challenges of multilingual tokenization"}
+{"qid": "3", "description": "which papers focus on improving the accuracy of semantic search"}
+{"qid": "4", "description": "a top level overview of different crawling techniques and ideally their respective advantages and disadvangtages"}
+{"qid": "5", "description": "what papers focus on automatic detection of ambiguous queries and resolving the ambiguous meanings"}
+{"qid": "6", "description": "which papers focus on the use of log information for analysing metadata of search engine user behaviour"}
+{"qid": "7", "description": "what papers focus on decreasing the search time of a retrieval system"}
+{"qid": "8", "description": "what studies investigate the impact of query expansion techniques on search performance"}
+{"qid": "9", "description": "what papers focus on the ranking task of a retrieval system"}
+{"qid": "10", "description": "what papers focus on discussing about the most efficient retrieval models"}
+{"qid": "11", "description": "what papers focus on the personalization of the results of an information retrieval system"}
+{"qid": "12", "description": "does ai have a significant impact on the effectiveness of search engines and how does this impact the user"}
+{"qid": "13", "description": "which papers focus on the ideas and concepts used for ir systems or introduce new approaches ideas"}
+{"qid": "14", "description": "what papers focus on improving the speed of a retrieval system"}
+{"qid": "15", "description": "what papers discuss methods of indexing to enhance search precision in retrieval systems"}
+{"qid": "16", "description": "what papers mention ranking functions"}
+{"qid": "17", "description": "research papers that explore the use of artificial intelligence in web crawling technologies"}
+{"qid": "18", "description": "research papers that detail methods for determining the relevance of webpage content to specific topics or queries"}
+{"qid": "19", "description": "research papers discussing the development and effectiveness of web crawlers designed for genre detection"}
+{"qid": "20", "description": "research papers on developing optimal search queries for retrieving specific topics in scientific literature"}
+{"qid": "21", "description": "research papers that analyze the role of link analysis in improving the retrieval of information"}
+{"qid": "22", "description": "what papers focus on the effectiveness of different query expansion techniques in retrieval systems"}
+{"qid": "23", "description": "which academic studies investigate how social media influence political attitudes and voting decisions particularly with a focus on the dissemination of information opinion forming election campaign strategies and the effect of disinformation in social networks"}
+{"qid": "24", "description": "which articles describe the possibilities and applications of the stemming and lemmatisation method in retrieval systems"}
+{"qid": "25", "description": "which documents describe how reliable information from social media posts etc is"}
+{"qid": "26", "description": "which articles describe the use and different areas of application of modern ais"}
+{"qid": "27", "description": "which papers discuss the disadvantages of the bm25 retrieval model"}
+{"qid": "28", "description": "what papers focus on building a query by example retrieval system for music files"}
+{"qid": "29", "description": "what papers contain information on cross language information retrieval"}
+{"qid": "30", "description": "what papers focus on improving the ways a user interacts with an information retrieval system"}
+{"qid": "31", "description": "what papers focus on the challenges for a retrieval system when dealing with multiple languages"}
+{"qid": "32", "description": "what methods and technologies can identify texts written by large language models as opposed to those written by humans"}
+{"qid": "33", "description": "how do neuroscience and brain computer interfaces revolutionize our understanding of the brain s complexities and enable direct communication between the mind and technology"}
+{"qid": "34", "description": "what papers focus on the effectiveness of supervised and unsupervised learning in nlp"}
+{"qid": "35", "description": "what papers explore bm25 and its effectiveness"}
+{"qid": "36", "description": "research papers on techniques for retrieving relevant images and videos from large collections"}
+{"qid": "37", "description": "research papers discussing techniques for identifying and extracting entities from web documents"}
+{"qid": "38", "description": "what papers focus on the history of retrieval system"}
+{"qid": "39", "description": "what papers focus on the effect that query length has on information retrieval results"}
+{"qid": "40", "description": "what papers focus on temporal document summarization in information retrieval systems"}
+{"qid": "41", "description": "what papers focus on evaluating the user interface of a retrieval system"}
+{"qid": "42", "description": "papers in this topic explore alterations and enhancements made to machine learning architectures to improve performance across diverse tasks these modifications encompass adjustments to network structure activation functions regularization methods optimization algorithms and integration of domain specific knowledge"}
+{"qid": "43", "description": "what papers focus on constructing knowledge graphs"}
+{"qid": "44", "description": "what papers explore techniques for detecting fake news"}
+{"qid": "45", "description": "what papers focus on recommendation systems utilizing collaborative filtering"}
+{"qid": "46", "description": "what papers explore techniques for text summarization"}
+{"qid": "47", "description": "what research focuses on using deep learning methods for information retrieval"}
+{"qid": "48", "description": "research papers that discuss the impact of machine learning on the effectiveness and efficiency of information retrieval systems"}
+{"qid": "49", "description": "what papers focus on effective crawling"}

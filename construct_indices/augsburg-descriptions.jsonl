@@ -1,0 +1,14 @@
+{"qid": "1", "description": "how can convolutional neural networks help extracting events"}
+{"qid": "2", "description": "what similarity metrics can be used when extracting events from social media"}
+{"qid": "3", "description": "how can events get extracted based on the traces of cabs"}
+{"qid": "4", "description": "which papers focus on multimodal zero shot learning methods"}
+{"qid": "5", "description": "which papers focus on self supervised image retrieval methods"}
+{"qid": "6", "description": "which papers focus on multimodal large language models"}
+{"qid": "7", "description": "wich papers focus on improving retrieval augmented generation for the purpose of multi hop question answering"}
+{"qid": "8", "description": "wich papers focus on sequence to sequence models for table question answering"}
+{"qid": "8", "description": "wich papers focus on improving semantic parsing for question decomposition"}
+{"qid": "9", "description": "which papers focus on introducing new or improving existing weakly supervised semantic parsing methods for table question answering"}
+{"qid": "10", "description": "which papers focus on introducing new or evaluating existing metrics for search result diversity that take the relevance of items into account"}
+{"qid": "11", "description": "which papers explore methods for coordinating small and large language models to improve reasoning capabilities"}
+{"qid": "12", "description": "which papers focus on improving cross lingual information retrieval systems"}
+{"qid": "13", "description": "which papers focus on the construction and utilization of knowledge graphs for enhancing natural language processing tasks"}

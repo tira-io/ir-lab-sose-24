@@ -69,8 +69,88 @@ tira_runs = [
     'ir-lab-sose-2024/fschlatt/sparse-cross-encoder-4-512',
     'ir-lab-sose-2024/fschlatt/castorini-list-in-t5-150',
     'ir-lab-sose-2024/fschlatt/rank-zephyr',
-    'ir-lab-sose-2024/naverlabseurope/Splade (re-ranker)'
+    'ir-lab-sose-2024/naverlabseurope/Splade (re-ranker)',
+
+    # Jena
+    'ir-lab-sose-2024/tinyfsu/tiny-fsu-bert',
+    'ir-lab-sose-2024/tinyfsu/append-term-retrieval',
+    'ir-lab-sose-2024/tinyfsu/strong-sole',
+
+    # Leipzig
+    'ir-lab-sose-2024/needthegrade/bigramsfinal2',
+    'ir-lab-sose-2024/needthegrade/bigramsfinal',
+
+    'ir-lab-sose-2024/gruppe-840/paper-shack',
+    'ir-lab-sose-2024/gruppe-840/stone-gauge',
+
+    'ir-lab-sose-2024/ir-sose-24-1/tender-button',
+    'ir-lab-sose-2024/ir-sose-24-1/syrupy-knot',
+
+    'ir-lab-sose-2024/ir-sose-24-6/absolute-cistern',
+    'ir-lab-sose-2024/ir-sose-24-6/flashed-strategy',
+
+    'ir-lab-sose-2024/gruppe-10/formal-locker',
+    'ir-lab-sose-2024/gruppe-10/bisque-sempre',
+
+    'ir-lab-sose-2024/eric-martin-malcolm-till/cloying-mercury',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/progressive-play',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/obsolete-trie',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/zesty-light',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/radiant-cylinder',
+
+    'ir-lab-sose-2024/ir-sose-24-5/damaged-program',
+    'ir-lab-sose-2024/ir-sose-24-5/furious-river',
+
+    'ir-lab-sose-2024/ir-sose-24-8/sluggish-gain',
+    'ir-lab-sose-2024/ir-sose-24-8/hard-frame',
+    'ir-lab-sose-2024/ir-sose-24-8/acute-vector',
+
+#    'ir-lab-sose-2024//', # running    
 ]
+
+LINKS = {
+    'ir-lab-sose-2024/tinyfsu/tiny-fsu-bert': 'https://github.com/webis-de/RENEUIR-24/blob/d372702ed9c7ab75904b3a6e52f547bb4978e216/tiny-bert-ranker/re-rank-with-tiny-bert.ipynb',
+    'ir-lab-sose-2024/tinyfsu/append-term-retrieval': 'https://github.com/webis-de/RENEUIR-24/blob/d372702ed9c7ab75904b3a6e52f547bb4978e216/foo/append-retrieval.ipynb',
+    'ir-lab-sose-2024/tinyfsu/strong-sole': 'https://github.com/webis-de/RENEUIR-24/blob/aea73cb803091d35580d208d64adbadb1b428418/foo/ir-lab-rank-fusion.ipynb',
+
+    'ir-lab-sose-2024/gruppe-840/paper-shack': 'https://github.com/tira-io/ir-lab-sose-2024-gruppe-840/blob/535601ed60bc891725408a5e4be61123110698e2/final/Final.ipynb',
+    'ir-lab-sose-2024/gruppe-840/stone-gauge': 'https://github.com/tira-io/ir-lab-sose-2024-gruppe-840/blob/b330ff32edd7196c86934005580a5e5c4c931aa6/final/final2.ipynb',
+
+    'ir-lab-sose-2024/ir-sose-24-1/tender-button': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-1/blob/4b62353a78cd8f3489732f9d77b69a0c416bb26a/newRetrievalSystem/DPH_QE.ipynb',
+    'ir-lab-sose-2024/ir-sose-24-1/syrupy-knot': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-1/blob/7f7a7d50e6e5283c29e5604d9e7358f0cba67d38/newRetrievalSystem/DPH_QE.ipynb',
+
+    'ir-lab-sose-2024/ir-sose-24-6/absolute-cistern': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-6/blob/211ce3248ae93b1bbf4ddd42d6e75ce60b7725eb/finished/ir-sose-24-6-retrieval-system.ipynb',
+    'ir-lab-sose-2024/ir-sose-24-6/flashed-strategy': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-6/blob/decbde4b7a6ab069d4cce97e251f75e139ed3ecc/finished/ir-sose-24-6-retrieval-system.ipynb',
+
+    'ir-lab-sose-2024/gruppe-10/formal-locker': 'https://github.com/tira-io/ir-lab-sose-2024-gruppe-10/blob/2e27ccfcfe6b7b6e5cd4d6001a7d767da146c978/retrievalsystem/retrievalsystem.ipynb',
+    'ir-lab-sose-2024/gruppe-10/bisque-sempre': 'https://github.com/tira-io/ir-lab-sose-2024-gruppe-10/blob/2e27ccfcfe6b7b6e5cd4d6001a7d767da146c978/retrievalsystem/retrievalsystem.ipynb',
+    
+    'ir-lab-sose-2024/eric-martin-malcolm-till/cloying-mercury': 'https://github.com/tira-io/ir-lab-sose-2024-eric-martin-malcolm-till/blob/e66223b05f82f9d2f8099c96cd1dac5ba072be9b/tf-idf/tf-idf-c-03-fields-titles-abstracts-weighted-query-expansion-results-comparison.ipynb',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/progressive-play': 'https://github.com/tira-io/ir-lab-sose-2024-eric-martin-malcolm-till/blob/e66223b05f82f9d2f8099c96cd1dac5ba072be9b/tf-idf/tf-idf-c-02-fields-titles-abstracts-weighted.ipynb',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/obsolete-trie': 'https://github.com/tira-io/ir-lab-sose-2024-eric-martin-malcolm-till/blob/4ec14cea97035d2e142ada04051bd4a87f8615f8/high-recall-retrieval/high-recall-retrieval-system.ipynb',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/zesty-light': 'https://github.com/tira-io/ir-lab-sose-2024-eric-martin-malcolm-till/blob/28f5047af4604751a0031f795c75256de7820c57/ranking/ranking.ipynb',
+    'ir-lab-sose-2024/eric-martin-malcolm-till/radiant-cylinder': 'https://github.com/tira-io/ir-lab-sose-2024-eric-martin-malcolm-till/blob/a34b5688ff7ca8e528dac1361ef0a928e039031f/ranking/ranking.ipynb',
+
+    'ir-lab-sose-2024/ir-sose-24-5/damaged-program': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-5/blob/b190e451493e3a0f036b74ac0887777eb216c617/baseline-retrieval-system/qe.ipynb',
+    'ir-lab-sose-2024/ir-sose-24-5/furious-river': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-5/blob/44478fb55423e0a70b8720517e9cfded2977e964/baseline-retrieval-system/qe.ipynb',
+    
+    'ir-lab-sose-2024/ir-sose-24-8/sluggish-gain': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-8/blob/7ea8d4b648d44ba4e32f6c61958577d1233b13f8/Group-8-Retrieval-System/Porter2Stemmer.ipynb',
+    'ir-lab-sose-2024/ir-sose-24-8/hard-frame': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-8/blob/fa1fb795ec49e08c105efbee5703b88c9bd771d4/Group-8-Retrieval-System/Advanced_Retrieval_System.ipynb',
+    'ir-lab-sose-2024/ir-sose-24-8/acute-vector': 'https://github.com/tira-io/ir-lab-sose-2024-ir-sose-24-8/blob/bb1e18e700c0b0c598f424add0e741f10e5b621b/Group-8-Retrieval-System/bm25_stopwords.ipynb',
+
+    'ir-lab-sose-2024/tira-ir-starter/BM25 (tira-ir-starter-pyterrier)': 'http://terrier.org/docs/current/javadoc/org/terrier/matching/models/BM25.html',
+    'ir-lab-sose-2024/tira-ir-starter/DirichletLM (tira-ir-starter-pyterrier)': 'http://terrier.org/docs/current/javadoc/org/terrier/matching/models/DirichletLM.html',
+    'ir-lab-sose-2024/tira-ir-starter/PL2 (tira-ir-starter-pyterrier)': 'http://terrier.org/docs/current/javadoc/org/terrier/matching/models/PL2.html',
+    'ir-lab-sose-2024/tira-ir-starter/LGD (tira-ir-starter-pyterrier)': 'http://terrier.org/docs/current/javadoc/org/terrier/matching/models/LGD.html',
+    'ir-lab-sose-2024/tira-ir-starter/Js_KLs (tira-ir-starter-pyterrier)': 'http://terrier.org/docs/current/javadoc/org/terrier/matching/models/Js_KLs.html',
+    'ir-lab-sose-2024/tira-ir-starter/MonoT5 Base (tira-ir-starter-gygaggle)': 'https://arxiv.org/abs/2003.06713',
+    'ir-lab-sose-2024/tira-ir-starter/ColBERT Re-Rank (tira-ir-starter-pyterrier)': 'https://dl.acm.org/doi/abs/10.1145/3397271.3401075',
+    'ir-lab-sose-2024/tira-ir-starter/TASB msmarco-distilbert-base-cos (tira-ir-starter-beir)': 'https://huggingface.co/sentence-transformers/msmarco-distilbert-base-tas-b',
+    'ir-lab-sose-2024/fschlatt/sparse-cross-encoder-4-512': 'https://webis.de/publications.html?q=cross-encoder#schlatt_2024a',
+    'ir-lab-sose-2024/fschlatt/castorini-list-in-t5-150': 'https://arxiv.org/abs/2312.16098',
+    'ir-lab-sose-2024/fschlatt/rank-zephyr': 'https://arxiv.org/abs/2312.02724',
+    'ir-lab-sose-2024/naverlabseurope/Splade (re-ranker)': 'https://arxiv.org/abs/2107.05720',
+}
 
 tira_run_cache = {i: {} for i in datasets}
 
