@@ -6,11 +6,11 @@
           IR Lab SoSe 2024 at Augsburg/Jena/K&ouml;ln/Leipzig
         </h1>
         <p class="mx-auto py-4 tira-explanation">
-          During the <a target="_blank" href="https://temir.org/teaching/information-retrieval-ss24/information-retrieval-ss24.html">IR lab in summer semester 2024</a> we did build search systems for the <a href="https://ir.webis.de/" target="_blank">IR Anthology</a> and the <a href="https://aclanthology.org/" target="_blank">ACL Anthology</a>. You can browse all the resulting systems and evaluations here.
+          During the <a target="_blank" href="https://github.com/tira-io/teaching-ir-with-shared-tasks#courses">IR lab in summer semester 2024</a> we did build search systems for the <a href="https://ir.webis.de/" target="_blank">IR Anthology</a> and the <a href="https://aclanthology.org/" target="_blank">ACL Anthology</a>. You can browse all the resulting systems and evaluations here.
         </p>
         <v-row class="d-flex justify-center py-4">
           <v-col cols="auto">
-            <v-btn color="primary" href="https://temir.org/teaching/information-retrieval-ss24/information-retrieval-ss24.html" target="_blank"  min-width="228" rel="noopener noreferrer" size="x-large" variant="flat">
+            <v-btn color="primary" href="https://github.com/tira-io/teaching-ir-with-shared-tasks#courses" target="_blank"  min-width="228" rel="noopener noreferrer" size="x-large" variant="flat">
               <v-icon icon="mdi-speedometer" size="large" start/>
               Course
             </v-btn>
